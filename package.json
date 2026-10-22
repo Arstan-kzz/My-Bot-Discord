@@ -1,0 +1,19 @@
+
+{
+  "name": "my-bot-discord",
+  "version": "1.0.0",
+  "description": "A modular Discord utility bot built with JavaScript and Discord.js.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node --check bot.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  },
+  "license": "Apache-2.0"
+}
